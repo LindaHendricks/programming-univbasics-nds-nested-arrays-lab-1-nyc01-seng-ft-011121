@@ -50,7 +50,7 @@ def matrix_update(matrix, row, column, new_value)
     matrix[row] = new_value
     matrix[column] = new_value
    
-    return matrix[row][column]
+    return matrix[row]
     
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
