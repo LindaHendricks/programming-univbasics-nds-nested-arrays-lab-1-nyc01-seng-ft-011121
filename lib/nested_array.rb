@@ -43,9 +43,21 @@ def sorted_matrix
 end
 
 def matrix_lookup(assembled_matrix, row, column)
-    ORGANIC_PRODUCE
-    CONVENTIONAL_PRODUCE
-    nested_array_grid = Array.new 
+    array_1 = [ ]
+    array_2 = [ ]
+    nested_array = Array.new 
+    cell = assembled_matrix[ ][ ]
+    
+    if array_1 == [ ] && array_2 == [ ] do 
+      nested_array.push(array_1,array_2)
+      return nested_array
+    end
+    
+    if assembled_matrix == nested_array
+      assembled_matrix[][]
+      return key 
+    
+    
     
     
     
