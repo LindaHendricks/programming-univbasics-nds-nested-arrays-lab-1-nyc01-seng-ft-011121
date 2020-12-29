@@ -42,15 +42,7 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 end
 
-def matrix_lookup(assembled_matrix, 1, 1)
-  
-  ORGANIC_PRODUCE
-  CONVENTIONAL_PRODUCE
-  nested_array_grid = Array.new 
-  
-  if nested_array_grid.push(CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE) 
-  return nested_array_grid.sort [row][column]
-end
+def matrix_lookup(assembled_matrix, row, column)
 
 end
 
