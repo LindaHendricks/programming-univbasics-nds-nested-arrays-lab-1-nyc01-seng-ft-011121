@@ -43,7 +43,12 @@ def sorted_matrix
 end
 
 def matrix_lookup(assembled_matrix, row, column)
-
+    ORGANIC_PRODUCE
+    CONVENTIONAL_PRODUCE
+    nested_array_grid = Array.new 
+    
+    
+    
 end
 
 def matrix_update(matrix, row, column, new_value)
