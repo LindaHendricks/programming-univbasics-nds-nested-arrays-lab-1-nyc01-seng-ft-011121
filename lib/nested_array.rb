@@ -42,7 +42,7 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 end
 
-def matrix_lookup(assembled_matrix, row, column)
+def matrix_lookup(row, column)
     
     if assembled_matrix == Array do 
        assembled_matrix[row][column]
