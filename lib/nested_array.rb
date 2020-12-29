@@ -43,11 +43,12 @@ def sorted_matrix
 end
 
 def matrix_lookup(assembled_matrix, row, column)
-    assembled_matrix == Array of Array
+    array_1 == Array
+    array_2 == Array
+    assembled_matrix == Array.push(array_1, array_2)
     
-    
-    if assembled_matrix == Array of Array do 
-       assembled_matrix[row][column]
+    if assembled_matrix == Array.push(array_1, array_2) do 
+       assembled_matrix [row][column]
       return assembled_matrix[row][column]
     end
   else 
