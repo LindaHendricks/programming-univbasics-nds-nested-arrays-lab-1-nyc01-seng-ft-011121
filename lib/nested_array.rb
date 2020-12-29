@@ -43,24 +43,14 @@ def sorted_matrix
 end
 
 def matrix_lookup(assembled_matrix, row, column)
-    array_1 = [ ]
-    array_2 = [ ]
-    nested_array = Array.new 
-    cell = assembled_matrix[ ][ ]
     
-    if array_1 == [ ] && array_2 == [ ] do 
-      nested_array.push(array_1,array_2)
-      return nested_array
+    if assembled_matrix == Array do 
+       assembled_matrix[row][column]
+      return assembled_matrix[row][column]
     end
-    
-    if assembled_matrix == nested_array
-      assembled_matrix[][]
-      return key 
-    
-    
-    
-    
-    
+  else 
+    "It is not possible to do"
+  end 
 end
 
 def matrix_update(matrix, row, column, new_value)
