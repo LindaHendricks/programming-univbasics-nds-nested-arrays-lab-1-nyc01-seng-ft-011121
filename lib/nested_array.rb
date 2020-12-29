@@ -43,8 +43,10 @@ def sorted_matrix
 end
 
 def matrix_lookup(assembled_matrix, row, column)
+    assembled_matrix == Array of Array
     
-    if assembled_matrix == Array do 
+    
+    if assembled_matrix == Array Array of Array do 
        assembled_matrix[row][column]
       return assembled_matrix[row][column]
     end
