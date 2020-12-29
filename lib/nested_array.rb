@@ -51,8 +51,7 @@ def matrix_lookup(assembled_matrix, row, column)
        assembled_matrix [row][column]
       return assembled_matrix[row][column]
     end
-  else 
-    "It is not possible to do"
+      assembled_matrix [row][column]
   end 
 end
 
