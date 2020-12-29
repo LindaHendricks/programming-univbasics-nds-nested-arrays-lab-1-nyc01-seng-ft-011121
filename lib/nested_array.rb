@@ -55,23 +55,6 @@ end
 end
 
 def matrix_update(matrix, row, column, new_value)
-  nested_array_grid = [ [
-  "Strawberries", #0
-  "Potatoes", #1
-  "Grapes", #2
-  "Avocadoes", #3
-  "Asparagus" #4
-], [
-  "Grapefruit", #0
-  "Pineapple", #1
-  "Oranges", #2
-  "Watermelon", #3
-  "Eggplant" #4
-]
-]
-  
-  nested_array_grid[row][column] = new_value
-  return nested_array_grid
   
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
